@@ -1,0 +1,191 @@
+﻿.ATA_Holding_in_sizler_için_sağlamış_olduğu_yeme {
+  font-size: 13px;
+  font-family: "Myriad Pro";
+  color: rgb(135, 134, 134);
+  line-height: 1.2;
+  position: absolute;
+  left: 377.937px;
+  top: 1812.057px;
+  width: 354px;
+  height: 29px;
+  z-index: 267;
+}
+.YEMEKHANE {
+  font-size: 23.395px;
+  font-family: "Montserrat";
+  color: rgb(0, 174, 235);
+  font-weight: bold;
+  line-height: 1.2;
+  -moz-transform: matrix( 0.67641459222513,0,0,0.67641459222513,0,0);
+  -webkit-transform: matrix( 0.67641459222513,0,0,0.67641459222513,0,0);
+  -ms-transform: matrix( 0.67641459222513,0,0,0.67641459222513,0,0);
+  position: absolute;
+  left: 367.273px;
+  top: 1776.93px;
+  width: 113.295px;
+  height: 16.162px;
+  z-index: 270;
+}
+.general_left{   
+    height:100% auto;
+    width:100px;
+    float:left;
+    padding:0px 0px 560px 0px;  
+}
+
+.general_center{   
+    background-color:#F9F9F9;
+    /*padding:0px 0px 560px 0px;*/
+    height: 100% auto; 
+    width: 55%; 
+    float: left;
+}
+
+.general_right{   
+    /*padding:0px 2px 560px 0px;*/
+    margin:0px;
+    height:100% auto; 
+    width: 25%; 
+    float: left;
+    background-color:#EBEBEE;
+}
+
+ #rotate3{ 
+  vertical-align:top;
+  margin:85px 0px 0px 0px;
+  width:200px;
+  height:30px;
+  z-index:1;
+  left:158px;
+  transform:rotate(7deg);
+  -ms-transform:rotate(270deg); /* IE 9 */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari and Chrome */
+  -o-transform:rotate(270deg); /* Opera */
+  }
+
+#rotate4{
+  vertical-align:top;
+  margin:40px 0px 0px 3px;
+  float:right;
+  position:absolute;
+  /*left:50px;*/
+  width:320px;
+  height:40px;
+  transform:rotate(7deg);
+  -ms-transform:rotate(360deg); /* IE 9 */
+  -moz-transform:rotate(360deg); /* Firefox */
+  -webkit-transform:rotate(360deg); /* Safari and Chrome */
+  -o-transform:rotate(360deg); /* Opera */
+}
+
+/* stil sıfırlama işlemi */
+#sınır ul, #sınır ul li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#menu{
+	/*background:#272727;*/
+    width:200px;
+    height:520px;
+    position:fixed;
+    border-right:4px #91F9F9 solid;
+}
+/*arka plan rengini ve sınır alt beyaz ve genişliği 150px için geçerli*/
+#sınır ul li{
+    font: 12px Arial;
+   
+    /*background-color:#272727;*/
+    width:150px;
+    cursor:pointer;
+    text-align:left;
+    margin-left:35px;  
+}
+/* Kullanıcı li bileşenin üzerinde geldiği zaman  arka plan rengini değiştir */
+#sınır ul li:hover{
+    /*position:relative;*/   
+}
+/* stil  */
+#sınır ul li a{
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#CACBCB;
+    display:inline-block;
+    text-decoration:underline;
+}
+
+#sınır ul li a.selected{
+ 	color:#ffffff; 
+    font:bold;  
+}
+#sınır ul li a:hover{
+	color:rgba(255, 255, 255, 0.38);
+    transition:color 0.3s ease;
+    -o-transition:color 0.3s ease;
+    -webkit-transition:color 0.3s ease;
+    -moz-transition:color 0.3s ease;
+}
+
+#sınır ul li a:hover:after {
+    content: "  ";
+    display: inline-block;
+    border-bottom: 0.8em solid transparent;
+    border-left: 0.8em solid transparent;
+    border-right: 0.8em solid #91F9F9;
+    border-top: 0.8em solid transparent;
+    height: 0px;
+    margin-top: -2px;
+    position: absolute;
+    left: 120px;
+    width: 1px;
+    transition:border-right 1s ease;
+    -o-transition:border-right 1s ease;
+    -webkit-transition:border-right 1s ease;
+    -moz-transition:border-right 1s ease;
+}
+
+#sınır ul li a.menu:hover:after {
+	border-right: 0.8em solid transparent;
+    transition:none;
+    -o-transition:none;
+    -webkit-transition:none;
+    -moz-transition:none;
+}
+/**** SECOND LEVEL MENU ****/
+/* Kullanıcı ana li öğe gelene olana kadar açılır menü için  pozisyon ul'u gizle */
+/*#sınır ul li ul{
+    position:absolute;
+    display:block;
+    visibility:hidden;
+    height:100%;
+    background-color:transaprent;
+    width:0px;
+    color:#fff;
+    
+}*/
+
+/*#sınır ul li ul li{
+    color:#fff;
+    background:transparent;
+    padding:15px;
+}*/
+/* Blok, not: Kullanıcı li hover olduğu zaman ul listesini göster 150px kişisel menü genişliği. */
+
+/*#sınır ul li:hover ul{
+    left:150px;
+    top:0px;
+    display:block;
+    visibility:visible;
+    width:300px;
+    background-color:#91F9F9;
+    transition:background-color 0.5s ease;
+    -o-transition:background-color 0.5s ease;
+    -webkit-transition:background-color 0.5s ease;
+    -moz-transition:background-color 0.5s ease;
+    
+}*/
+
+
+

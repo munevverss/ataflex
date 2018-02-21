@@ -1,0 +1,90 @@
+﻿
+
+
+#renkGecisi {
+            background: -moz-linear-gradient(#000079, #0099cc); /* FF3.6+ */
+            background: -webkit-linear-gradient(#000079,#0099cc); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(#000079,#0099cc); /* Opera11.10+ */
+            background: -ms-linear-gradient(#000079,#0099cc); /* IE10+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000079', endColorstr='#0099cc',GradientType=0 ); /* IE6-9 */
+            background: linear-gradient(#000079,#0099cc); /* W3C */
+            width:50%;
+            height:100% auto;
+        }
+.login__signup {
+            font-size: 1.2rem;
+            color:white;
+        }
+.login {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+.login input {
+  width: 150px;
+  height: 32px;
+  background: #fcfcfc;
+  border:none;
+  border-bottom-style:solid;
+  border-bottom-color:#808080;
+  border-bottom-width:1px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+.login input { text-indent: 32px;}
+.login .fa-user { 
+  position: absolute;
+  right:10px;
+  top: 10px;
+  left: 10px;
+}
+.login_2018_2019 {
+        font-family: Arial;
+        font-size: 16px;
+        color: rgba(122, 204, 200, 0.4);
+        line-height: 1.2;
+        text-align: center;
+    }
+    .login_head {
+        font-size: 16px;
+        font-family: Arial;
+        color: rgb(122, 204, 200);
+        text-align: center;
+        line-height: 1.2;
+    }
+.login-top {
+            padding: 1em;
+            margin-top: 0.8em;
+        }
+.login-right input[type="tel"], .login-right input[type="password"] {
+            outline: none;
+            font-size: 1em;
+            color: #cecfd3;
+            padding: 19px 30px 10px 10px;
+            margin: 0;
+            width: 50%;
+            border: none;
+            border-bottom: 2px solid #cecfd3;
+            -webkit-appearance: none;           
+        }
+.gly {
+            color: #cecfd3;
+            border-bottom: 2px solid #cecfd3;
+        }
+.login-bottom{
+     outline: none;
+         
+            -webkit-appearance: none; 
+            padding: 19px 30px 10px 10px;
+            margin: 0;
+            width: 50%;
+            border: none;
+}
+
+/*@media screen and (max-width:900px),screen and (max-device-width:900px) {
+
+	#a1{color:#fff;background:#000;}
+}*/
+
+

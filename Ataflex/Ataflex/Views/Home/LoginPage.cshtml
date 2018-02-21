@@ -1,0 +1,75 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LoginPage</title>
+    <link href="~/Content/style.css" rel="stylesheet" /> 
+    <link href="~/Content/StyleSheets/loginStyles.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+
+</head>
+<body style="margin: 0px;">
+    <div id="renkGecisi"style=" float: left; width:50%;"class="col-lg-6 col-md-6 col-sm-6">
+        <div style="margin-top:50px;">
+            <p class="login_2018_2019">2018/2019</p>&emsp;
+            <p class="login_head">YAN HAKLAR SİSTEMİNE </p>
+            <p class="login_head">HOŞ GELDİNİZ.</p>          
+        </div>     
+        <div style="text-align: center; margin-top: 50px;">
+            <img src="~/Images/Ads%c4%b1z.jpg" style="width:40%"/>           
+        </div>
+        <div style="text-align: center; margin-top: 100px;">
+        <p class="login__signup">ATAFLEX Sistemi hakkında Sıkça Sorulan Soruları giriş</p>
+        <p class="login__signup">yaptıktan sonra görüntüleyebilirsiniz.</p>
+        </div>    
+    </div>
+    <div style="float:right; width:50%;" class="col-lg-6 col-md-6 col-sm-6">        
+            <div style="text-align:center; margin-top:30px;">
+                <img src="~/Images/ataflex-1404897794.png" style="width:30%;"/>
+            </div>
+            <div style="text-align: center; margin-top: 50px; color: #cecfd3; font-size:12px;">
+                <p>TC Kimlik No ve sizlere iletilen şifrenizle giriş yapabilirsiniz.</p>
+            </div>
+            <div class="login-top" style="text-align:center; margin-top:50px; ">
+               <div style="padding:10px;" class="login-right">
+                  <input type="tel"class="col-lg-6"  autofocus="true" placeholder="TC Kimlik No"/>
+                  <span class="fa fa-user gly" ></span>
+                   <input type="password" class="col-lg-6" placeholder="Şifre"/>
+                   <span class="gly fa fa-lock"   ></span>
+               </div>
+                <br />                
+                   @*<div class="login-bottom">
+                       <div id="submit" role="button" class="btn col-lg-2" tabindex="0" style="background-color:rgb(122, 204, 200);color: white;float:left;">
+                           <span>GİRİŞ</span>
+                       </div>
+                       <div class="col-lg-3 ">
+                           <a href="#" style="text-decoration:underline;float:right;">Şifremi Unuttum</a>
+                       </div>
+                   </div>                                                            
+        </div>*@      
+         <div class="row" style="padding:10px; margin-left:25%;">
+          
+              <div class="form-group" style="width:30%;">
+                  <button style="background-color: rgb(122, 204, 200);color:white;float:left; width:80px;" type="submit" class="btn btn-lg">Giriş</button>
+                  @*<div id="submit" role="button" class="btn col-lg-6" tabindex="0" style="background-color:rgb(122, 204, 200);color: white;float:left;">
+                <span>GİRİŞ</span>
+            </div>*@
+                  @*<input type="button" name="button">Giriş*@
+              </div>
+        
+    
+        <div class="form-group" style="width:50%;">
+            <a href="#" style="text-decoration: underline; color: rgb(122, 204, 200)" data-toggle=" modal">Şifremi Unuttum </a>
+        </div>
+    
+</div>
+    </div>
+</body>
+</html>
