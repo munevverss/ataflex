@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @*<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/StyleSheets/index.css" rel="stylesheet" />
+    <style>li a{color:red;}</style>
+</head>
+<body style="width:100%;height:100%;">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="~/Images/ataflex-1404897794.png" style="width:70%" />
+            </div>
+            <ul class="nav navbar-nav" style="width:400px;height:30px;">
+                <li class="active"><a href="/Home/Index">Anasayfa</a></li>
+                <li><a href="/Home/Help">Yardım</a></li>
+                <li><a href="/Home/SSS">S.S.S.</a></li>
+                <li><a href="/Home/ContactUs">Bize Ulaşın</a></li>
+                <li><a href="#">Çıkış</a></li>
+            </ul>
+        </div>
+    </nav>
+    @*<div class="navbar navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header" style="margin:40px 0px 0px 50px ">
+                    <header>
+                        <div class="logo">
+                            <img src="~/Images/ataflex-1404897794.png"  style="width:auto"/>
+                        </div>
+                    </header>
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                   @Html.ActionLink("Application name", "Index", "Home", null, new { @class = "navbar-brand" })
+
+                </div>
+                <div class="navbar navbar-static" style="width:80%">
+                    <ul class="nav navbar-nav " style="margin:50px 40px 0px 0px;">
+                        <li class="active"><a href="#">Anasayfa</a></li>
+                        <li><a href="#">Yardım</a></li>
+                        <li><a href="#">S.S.S.</a></li>
+                        <li><a href="#">Bize Ulaşın</a></li>
+                        <li><a href="#">Çıkış</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+   
+
+    <div class="body-content" style="margin-top:10px; height:80%">
+        @RenderBody()
+        @*Asp.net te renderbody placeholder dır*@
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
